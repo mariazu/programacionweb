@@ -370,7 +370,8 @@
             <div class="col-md-12">
 
                 <div class="row">
-                  <h4>Disfruta tu experiencia Brasil 2014________________________________________________________________________________________</h4>
+                  <h4>Disfruta tu experiencia Brasil 2014</h4>
+                  <p>_______________________________________________________________________________________________________________________________________________________</p>
                 </div>
 
                 <div class="row">
@@ -393,7 +394,8 @@
             <div class="col-md-12">
 
                 <div class="row">
-                  <h4>Torneos FIFA________________________________________________________________________________________</h4>
+                  <h4>Torneos FIFA</h4>
+                  <p>_______________________________________________________________________________________________________________________________________________________</p>
                 </div>
 
                 <div class="row">
@@ -416,7 +418,8 @@
             <div class="col-md-12">
 
                 <div class="row">
-                  <h4>Juegos________________________________________________________________________________________</h4>
+                  <h4>Juegos</h4>
+                  <p>_______________________________________________________________________________________________________________________________________________________</p>
                 </div>
 
                 <div align="right" class="row">
@@ -484,8 +487,99 @@
 
                 </div>
                 </div>
-    
-            
+        </div><br/><br/>
+
+        <div class="row">
+            <div class="col-md-12">
+               <div class="row">
+                  <div class="col-md-8">
+                      <h4>Destino</h4>
+                      <p>_______________________________________________________________________________________________________________________________________________________</p>
+                  </div>
+
+                  <div class="col-md-2">
+                      <h4>Presentado por</h4>
+                  </div>
+               
+
+                    <div class="col-md-2">
+                      <h2 class="text-danger">Emirante</2>
+                    </div>
+               </div>
+
+               <div class="row">
+                  <div align="center" class="col-md-6">
+                      <img width="100%" src="images/mapa.jpg" alt="..." class="img-rounded">
+                  </div>
+
+                  <div class="col-md-6">
+                      <div class="row">
+                        <div align="center" class="col-md-2">
+                             <img width="70px" height="70px" src="images/1037338_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                            <h4 class="text-primary">Belo Horizonte</h4>
+                            <h5 class="text-primary">Estadio Mineirao</h5>
+                        </div>
+
+                        <div class="col-md-2">
+
+                            <img width="70px" height="70px" src="images/738308_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                          <h4 class="text-primary">Brasilia</h4>
+                          <h5 class="text-primary">Estadio Nacional</h5>
+                        </div>
+                      </div><br/>
+
+                      <div class="row">
+                        <div align="center" class="col-md-2">
+                             <img width="70px" height="70px" src="images/1037321_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                            <h4 class="text-primary">Cuiab&aacute;</h4>
+                            <h5 class="text-primary">Avena Pantanal</h5>
+                        </div>
+
+                        <div class="col-md-2">
+
+                            <img width="70px" height="70px" src="images/1038566_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                          <h4 class="text-primary">Curitiba</h4>
+                          <h5 class="text-primary">Avena de Baixada</h5>
+                        </div>
+                      </div><br/>
+
+                      <div class="row">
+                        <div align="center" class="col-md-2">
+                             <img width="70px" height="70px" src="images/1037323_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                            <h4 class="text-primary">Fortaleza</h4>
+                            <h5 class="text-primary">Estadio Castelao</h5>
+                        </div>
+
+                        <div class="col-md-2">
+
+                            <img width="70px" height="70px" src="images/1037325_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                          <h4 class="text-primary">Manaos</h4>
+                          <h5 class="text-primary">Arena Amazonia</h5>
+                        </div>
+                      </div><br/>
+
+                  </div>
+               </div>
+
+            </div>
         </div>
 
       <!-- Fin container -->
