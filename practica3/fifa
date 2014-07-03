@@ -370,7 +370,7 @@
             <div class="col-md-12">
 
                 <div class="row">
-                  <h4>Disfruta tu experiencia Brasil 2014</h4>
+                  <h3>Disfruta tu experiencia Brasil 2014</h3>
                   <p>_______________________________________________________________________________________________________________________________________________________</p>
                 </div>
 
@@ -394,7 +394,7 @@
             <div class="col-md-12">
 
                 <div class="row">
-                  <h4>Torneos FIFA</h4>
+                  <h3>Torneos FIFA</h3>
                   <p>_______________________________________________________________________________________________________________________________________________________</p>
                 </div>
 
@@ -418,7 +418,7 @@
             <div class="col-md-12">
 
                 <div class="row">
-                  <h4>Juegos</h4>
+                  <h3>Juegos</h3>
                   <p>_______________________________________________________________________________________________________________________________________________________</p>
                 </div>
 
@@ -493,7 +493,7 @@
             <div class="col-md-12">
                <div class="row">
                   <div class="col-md-8">
-                      <h4>Destino</h4>
+                      <h3>Destino</h3>
                       <p>_______________________________________________________________________________________________________________________________________________________</p>
                   </div>
 
@@ -503,7 +503,7 @@
                
 
                     <div class="col-md-2">
-                      <h2 class="text-danger">Emirante</2>
+                      <h2 class="text-danger">Emirates</2>
                     </div>
                </div>
 
@@ -576,14 +576,389 @@
                         </div>
                       </div><br/>
 
+                      <div class="row">
+                        <div align="center" class="col-md-2">
+                             <img width="70px" height="70px" src="images/1037328_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                            <h4 class="text-primary">Natal</h4>
+                            <h5 class="text-primary">Estadio das Dunas</h5>
+                        </div>
+
+                        <div class="col-md-2">
+
+                            <img width="70px" height="70px" src="images/1037329_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                          <h4 class="text-primary">Porto Alegre</h4>
+                          <h5 class="text-primary">Estadio Beira-Rio</h5>
+                        </div>
+                      </div><br/>
+
+                      <div class="row">
+                        <div align="center" class="col-md-2">
+                             <img width="70px" height="70px" src="images/1037331_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                            <h4 class="text-primary">Recife</h4>
+                            <h5 class="text-primary">Arena Pernambuco</h5>
+                        </div>
+
+                        <div class="col-md-2">
+
+                            <img width="70px" height="70px" src="images/1017789_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                          <h4 class="text-primary">Rio de Janeiro</h4>
+                          <h5 class="text-primary">Estadio Maracan&aacute;</h5>
+                        </div>
+                      </div><br/>
+
+                      <div class="row">
+                        <div align="center" class="col-md-2">
+                             <img width="70px" height="70px" src="images/1017718_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                            <h4 class="text-primary">Salvador de Bah&iacute;a</h4>
+                            <h5 class="text-primary">Arena Fonte Nova</h5>
+                        </div>
+
+                        <div class="col-md-2">
+
+                            <img width="70px" height="70px" src="images/1017629_small.jpg" alt="..." class="img-rounded">
+                        </div>
+
+                        <div class="col-md-4">
+                          <h4 class="text-primary">Sao Paulo</h4>
+                          <h5 class="text-primary">Arena de Sao Paulo</h5>
+                        </div>
+                      </div>
                   </div>
                </div>
 
             </div>
         </div>
 
+        <div class="row">
+
+                  <h3>Organizaci&oacute;n</h3>
+                  <p>_______________________________________________________________________________________________________________________________________________________</p>
+                </div>
+
+                <div align="right" class="row">
+                  <ol class="breadcrumb">
+                      <li><a href="#"><</a></li>
+                      <li><a href="#">></a></li>
+                    </ol>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <h4>FOOTBALL FOR HOPE</h4>
+                        </div>
+                        <div class="row">
+                            <img src="images/2387089_large-lnd.jpg" alt="..." class="img-rounded">
+                        </div>
+                        <div align="center" class="row">
+                            <ol class="breadcrumb">
+                                <li><a href="#">Football For Hope></a></li>
+                            </ol>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <h4>TOUR DEL TROFEO</h4>
+                        </div>
+                        <div class="row">
+                            <img src="images/2172844_large-lnd.jpg" alt="..." class="img-rounded">
+                        </div>
+                        <div align="center" class="row">
+                            <ol class="breadcrumb">
+                                <li><a href="#">Tour Del Trofeo</a></li>
+                            </ol>
+                        </div>
+                      </div>
+                        <div class="col-md-4">
+                        <div class="row">
+                            <h4>LA VISI&Oacute;N DEL VALCKE</h4>
+                        </div>
+                        <div class="row">
+                            <img src="images/2300546_large-lnd.jpg" alt="..." class="img-rounded">
+                        </div>
+                        <div align="center" class="row">
+                            <ol class="breadcrumb">
+                                <li><a href="#">La Visi&oacute;n De Valcke></a></li>
+                            </ol>
+                        </div>
+                      </div>
+                </div><br/>
+
+                <div class="row">
+                  
+                      <div class="col-md-6">
+                          <img src="images/committee-col6.png" alt="..." class="img-rounded">
+                      </div>
+                      <div class="col-md-6">
+                        <img src="images/volunteers-col6.png" alt="..." class="img-rounded">
+                     </div>                   
+                </div>
+
+                <div class="row">
+          
+                  <h3>La FIFA</h3>
+                  <p>_______________________________________________________________________________________________________________________________________________________</p>
+               </div>
+               <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <h4>PRENSA</h4>
+                        </div>
+                        <div class="row">
+                            <img src="images/2388908_large-lnd.jpg" alt="..." class="img-rounded">
+                        </div><br/>
+                        <div class="row">
+                            <p>La fase de grupos de la Copa Mundial de la FIFA<br/> Brasil 2014 ha alcanzado r&eacute;cords de<br/> telespectadores por todo el globo, con un<br/> desempeño espectacular en Estados Unidos y<br/> nuevos avances sensacionales en Europ, Asia y el<br/> resto de Am&eacute;rica.</p>
+                        </div>
+                        <div align="center" class="row">
+                            <ol class="breadcrumb">
+                                <li><a href="#">Noticias></a></li>
+                                <li><a href="#">El Canal De Los Medios></a></li>
+                            </ol>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <h4>THE FIFA WEEKLY</h4>
+                        </div>
+                        <div class="row">
+                            <img width="85%"src="images/revista.jpg" alt="..." class="img-rounded">
+                        </div><br/>
+                        <div class="row">
+                            <p>An&aacute;lisis, reportajes, im&aacute;genes. La revista The FIFA<br/>Weekly aparece todos los viernes, tanto en papel<br/>como en formato electr&oacute;nico</p>
+                        </div>
+                        <div align="center" class="row">
+                            <ol class="breadcrumb">
+                                <li><a href="#">The FIFA Weekly></a></li>
+                            </ol>
+                        </div>
+                      </div>
+                        <div class="col-md-4">
+                        <div class="row">
+                            <h4>LA FIFA</h4>
+                        </div>
+                        <div class="row">
+                            <img src="images/2300217_large-lnd.jpg" alt="..." class="img-rounded">
+                        </div><br/>
+                        <div class="row">
+                            <p>FIFA.com te cuenta la experiencia en los estadios<br/>de varios hinchas con discapacidad visual. El<br/>servicio de narraci&oacute;n audiodescriptiva de la Copa<br/>Mundial de la FIFA est&aacute; coordinado por Urece<br/>Esporte e Cultura para Cegos, una ONG que<br/>colabora con la FIFA y el COL.</p>
+                        </div>
+                        <div align="center" class="row">
+                            <ol class="breadcrumb">
+                                <li><a href="#">Todas Las Noticias></a></li>
+                            </ol>
+                        </div>
+                      </div>
+                </div><br/>
+
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="row">
+                          <h3>Todas las Copas Mundiales</h3>
+                          <p>_______________________________________________________________________________________________________________________________________________________</p>
+                      </div>
+
+                      <div class="row">
+                          <div align="center" class="col-md-3">    
+                              <button type="button" class="btn btn-link">1930/1958</button>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                             <button type="button" class="btn btn-link">1962/1982</button>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                             <button type="button" class="btn btn-link">1986/2006</button>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                             <button type="button" class="btn btn-link">2010/2022</button>
+                          </div>
+
+                          <div align="right" class="col-md-3">
+                            <ol class="breadcrumb">
+                                <li><a href="#"><</a></li>
+                                <li><a href="#">></a></li>
+                            </ol>
+                          </div>
+
+                      </div>
+
+                      <div class="row">
+                          <div align="center" class="col-md-2">
+                              <div class="row">
+                                <h4 class="text-primary">Corea/jap&oacute;n 2002</h4>
+
+                              </div>
+                              <div class="row">
+                                <img src="images/2002fwcoe_4cf_ps.png" alt="..." class="img-rounded">
+                              </div>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                              <div class="row">
+                                <h4 class="text-primary">Alemania 2006</h4>
+                              </div>
+                              <div class="row">
+                                <img src="images/2006fwcoe_4cf_ps.png" alt="..." class="img-rounded">
+                              </div>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                              <div class="row">
+                                <h4 class="text-primary">Sud&aacute;frica 2010</h4>
+                              </div>
+                              <div class="row">
+                                <img src="images/2010fwcoe_4cf_ps.png" alt="..." class="img-rounded">
+                              </div>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                             <div class="row">
+                                <h4 class="text-primary">Brasil 2014</h4>
+                              </div>
+                              <div class="row">
+                                <img src="images/2014fwcoe_4cf_ps.png" alt="..." class="img-rounded">
+                              </div> 
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                              <div class="row">
+                                <h4 class="text-primary">Rusia 2018</h4>
+                              </div>
+                              <div class="row">
+                                <img src="images/17_2018.png" alt="..." class="img-rounded">
+                              </div>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                              <div class="row">
+                                <h4 class="text-primary">Qatar 2022</h4>
+                              </div>
+                              <div class="row">
+                                <img src="images/17_2022.png" alt="..." class="img-rounded">
+                              </div>
+                          </div>
+                      </div><br/>
+
+                      <div class="row">
+                          <div class="col-md-4">
+                            <img src="images/2250600_large-lnd.jpg" alt="..." class="img-rounded">
+                          </div>
+
+                          <div class="col-md-4">
+                            <h4 class="text-primary">El COL de Rusiia 2018,<br/> entristecido por los hechos de</br> Volgogrado</h4>
+                            <p>El COL de la Copa Mundial de la FIFA Rusia<br/>2013 quiere hacer llegar a los familiares y<br/>amigos de las v&iacute;ctimas de los tr&aacute;gicos eventos<br/>sucedidos en Volgogrado sus m&aacute;s sinceras<br/>condolencias.</p>
+                          </div>
+
+                          <div class="col-md-4">
+                          </div>
+                      </div>
+                       
+                       <div align="right" class="row">
+                          <ol class="breadcrumb">
+                                <li><a href="#">Rusia 2018></a></li>    
+                            </ol>
+                      </div> 
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-12">
+                      <div align="center" class="row">
+                          <h5>Socios FIFA</h5>
+                      </div>
+                      <div align="center" class="row">
+                       
+                              <img src="images/socios.jpg" alt="..." class="img-rounded">  
+                      </div><br/>
+
+                      <div align="center" class="row">
+                          <h5>Patrocinadores de la Copa Mundial de la FIFA</h5>
+                      </div>
+                      <div align="center" class="row">
+                       
+                              <img src="images/patrocinador.jpg" alt="..." class="img-rounded">  
+                      </div><br/>
+
+                      <div align="center" class="row">
+                          <h5>Promotores nacionales</h5>
+                      </div>
+                      <div align="center" class="row">
+                       
+                              <img src="images/promotores.jpg" alt="..." class="img-rounded">  
+                      </div>
+
+                  </div>
+              </div><br/>
+
+                  <div class="row">
+                          <div align="center" class="col-md-3">    
+                              <button type="button" class="btn btn-link">Partidos</button>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                             <button type="button" class="btn btn-link">Equipos</button>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                             <button type="button" class="btn btn-link">Entradas</button>
+                          </div>
+
+                          <div align="center" class="col-md-2">
+                             <button type="button" class="btn btn-link">Destino</button>
+                          </div>
+
+                          <div align="center" class="col-md-3">
+                            <button type="button" class="btn btn-link">Organizaci&oacute;n</button>
+                          </div>
+
+                      </div>
+
+
+                <div class="row">
+                  <div align="right" class="col-md-12">
+                    <ol class="breadcrumb">
+                      <li><a href="#"><h5>FIFA</h5></a></li>
+                      <li><a href="#"><h5>Terminos del servicio</h5></a></li>
+                      <li><a href="#"><h5>Pol&iacute;tica de privacidad</h5></a></li>
+                      <li><a href="#"><h5>Desc&aacute;rgalo</h5></a></li>
+                      <li><a href="#"><h5>Contacto con la FIFA</h5></a></li>
+                      <li><a href="#"><h5>Versi&oacute;n Celular</h5></a></li>
+                    </ol>
+                </div>
+                </div>
+
+
+                </div>
+        </div><br/><br/>
+
+
+        
       <!-- Fin container -->
       </div>
+
+
+
+  
+
        
 
 
