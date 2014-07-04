@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<script src="JS/jquery.min.js"></script>
+		<script>
+			$(document).ready(
+				function(){
+					//alert('Hola JavaScript');
+					//Selecciona el elemento(unicidad)
+					alert($('#elemento1').css('fontSize'));
+					//Selecciona los elementos de la clase (todos)
+					$('#elemento1').css({ 'fontSize' : '100px', 'color' : 'red' });  
+					alert($('#elemento1').css('fontSize'));
+					//ocultar el elemento 1(la etiqueta que tenga el id con el elemento 1)
+					$('#elemento1').hide('slow'); 
+					//mostrar elemento
+					$('#elemento1').show('slow');
+
+					$('.titulo').width('50px'); 
+					//evento. Cuando de click en este elemento hace esa funcion
+					$('#elemento1').click(
+						function(){
+							//Hace referencia al primer 
+							$(this).hide('slow');
+						}
+
+					); 
+
+				$('#boton').click(
+					function(){
+					//Hace que el valor que se envie al hacer click en el botón lo muestre en una etiqueta
+					
+
+					alert(parseFloat($('#input1').val()) +parseFloat($('#input2').val()));
+					}
+				);
+
+				
+			});
+			
+
+		</script>
+	</head>
+
+
+	<body>
+		<div>
+			<input type="text" id="input1"></input>
+			<input type="text" id="input2"></input>
+			<button id="boton">Aceptar</button>
+		</div>
+		<div id="container" class="elemento2">
+			<h1 id="titulo">
+				<p class="parrafo" id="elemento1">Vamos a Aprender...</p>
+			</h1>
+		</div>
+		<div>
+		<h1 class="titulo"> JQuery</h1>
+		<h2 class="titulo"> Hello!!!!</h2>
+		</div>
+	</body>
+</html>
