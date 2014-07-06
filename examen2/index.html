@@ -1,0 +1,222 @@
+<html>
+	<head>
+		<title>Examen 2</title>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <script src="js/jquery.min.js"></script>
+		<script>
+			$(document).ready(
+				    function(){
+					
+					     //ocultar el elemento 1(la etiqueta que tenga el id con el elemento 1)
+					     $('.elemento1').hide(); 
+					     //mostrar elemento
+
+					     $('.jugador').hide(); 
+               $('.entrenador').hide();
+				
+			  
+			         $('#botonF').click(
+					         function(){
+					         //Hace que el valor que se envie al hacer click en el botón lo muestre en una etiqueta
+						          $('.elemento1').show('slow');
+						
+					       });
+
+                $('#botonE').click(
+                   function(){
+                   //Hace que el valor que se envie al hacer click en el botón lo muestre en una etiqueta
+                      $('.entrenador').show('slow');
+                      $('.jugador').hide(); 
+            
+                 });
+
+               $('#botonJ').click(
+                   function(){
+                   //Hace que el valor que se envie al hacer click en el botón lo muestre en una etiqueta
+                      $('.jugador').show('slow');
+                      $('.entrenador').hide();
+            
+                 });
+               
+   
+          }
+
+			);
+        
+			
+
+		</script>
+	</head>
+	<body>
+
+		 <!-- inicio navbar, inicio de la barra de menu -->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                
+      		<form class="form-horizontal" role="form">
+                  <!-- formulario Nombre -->
+                  <div class="form-group">
+                          
+                      <div class="col-sm-2">
+                          <input  class="form-control" id="email" name="email" placeholder="Email">
+                          
+                      </div>
+                      <div  class="col-sm-2">
+                           <input  class="form-control" id="password" name="password" placeholder="Password">
+                      </div>
+                      	 <button type="button" class="btn btn-success">Sign in</button>   
+                  </div>   
+               
+          </form>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Fin navbar, fin de la barra de menu -->
+<div class="jumbotron">
+
+	<div class="container">
+      <div class="row">
+          <div class="col-md-12">
+
+          	<div  class="row">
+          		<h1 class="text-left">Examen 2 &nbsp;&nbsp;5 Julio 2014</h1>
+          		<br/>
+          	
+          		<a class="btn btn-primary btn-lg active" role="button" id="botonF" name="botonF">Ver Formularios</a>
+          	
+          	
+          	</div>
+        </div>
+    </div>
+   </div>
+ </div>
+
+ 	<div class="elemento1">
+		  <div class="container" >
+
+          	<div class="row">
+          		  <div class="col-md-4">
+          			     <h3 class="text-left">Equipo</h3>
+          			     <br/>
+          			   <form role="form">
+  						        <div class="form-group">
+    						          <label for="nombre">Nombre</label>
+   							          <input type="nombre" class="form-control" id="nombre" placeholder="nombre">
+  						        </div>
+  						        <div class="form-group">
+    						          <label for="exampleInputPassword1">Pa&iacute;s</label>
+    						          <select>
+    							           <option value="">Seleccionar</option>
+    							           <option value="">M&eacute;xico</option>
+    							           <option value="">Brasil</option>
+    							           <option value="">Argentina</option>
+    							           <option value="">Holanda</option>
+    						          </select>	
+  						        </div>
+ 						          <div class="form-group">
+    						          <label for="escudo">Escudo</label>
+   							          <input type="file" id="escudo">
+    		  						</div>
+  
+  						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+      </div>
+
+        
+          	 <div align="center" class="col-md-4">
+          			 <h3>Integrante</h3>
+          		<div>
+          				<a class="btn btn-primary btn-lg active" role="button" id="botonE">Entrenador</a>
+          		</div><br/>
+          		<div>
+          				<a class="btn btn-primary btn-lg active" role="button" id="botonJ">Jugador</a>
+          		</div>
+
+          		</div>
+      
+
+        <div class="jugador">
+          		<div class="col-md-4">	
+          			 <form role="form">
+          				    <h3>Jugador</h3>
+                    <div class="form-group">
+                      <label for="idjugador">ID Jugador</label>
+                      <input type="text" class="form-control" id="idjugador">
+                    </div>
+                    <div class="form-group">
+                      <label for="idposicion">ID Posici&oacute;n</label>
+                      <input type="text" class="form-control" id="idposicion">
+                    </div>
+  						      
+  						      <div class="form-group">
+    						        <label for="numero">N&uacute;mero</label>
+   							        <input type="text" class="form-control" id="numero" placeholder="numero">
+  						      </div>
+  						      <button type="submit" class="btn btn-default" id="jugadores">Submit</button>
+					     </form>
+          	</div>
+        </div>
+
+        <div class="entrenador">
+              <div class="col-md-4">  
+                 <form role="form">
+                      <h3>Entrenador</h3>
+                    <div class="form-group">
+                      <label for="identrenador">ID Entrenador</label>
+                      <input type="text" class="form-control" id="identrenador">
+                    </div>
+                    <div class="form-group">
+                      <label for="idpais">ID Pa&iacute;s</label>
+                      <input type="text" class="form-control" id="idpais">
+                    </div>
+                   
+                    
+                    <button type="submit" class="btn btn-default" id="entrenadores">Submit</button>
+               </form>
+            </div>
+        </div>
+          		</div>
+          	</div>
+          </div>
+       
+     
+
+
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

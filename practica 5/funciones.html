@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<script src="JS/jquery.min.js"></script>
+		<script>
+			$(document).ready(
+
+				
+		 		//Función1: getElementById().Este método pertenece al objeto document. Con él obtendremos el objeto que hace referencia al elemento con un id concreto 
+	
+				// Obtenemos el elemento “status”
+				var el = document.getElementById("status");
+				// Mostramos mediante una alerta el contenido del elemento
+				alert(el.innerHTML);
+
+				//Función 2: getElementsByTagName().cambiar el color del texto de todos los elementos con tag “A” contenidos dentro del elemento con id “links”
+
+				// Obtenemos el elemento con id “links”
+				var el = document.getElementById("links");
+				// Ahora obtenemos todos los elementos con tag A que hay
+				// dentro del elemento 'el'
+				var as = el.getElementsByTagName("A");
+				// Y finalmente recorremos el array de elementos para
+				// cambiarles el color a cada uno
+				for (var i=0; i<as.length; i++) {
+      				as[i].style.color = '#000'; // negro
+				} 
+
+				
+			);
+			
+
+		</script>
+		<script type="text/javascript">
+			//Función3: join().Sirve para unir todos los elementos de un array para forma una cadena de texto
+
+			// Creamos el array de nombres
+			var nombres = ['Luis','Javier','Sancho','Roberto','Rafael','Manuel'];
+			// Unimos todos los elementos separándolos por comas
+			var juntos = nombres.join(", ");
+			// Y lo mostramos
+			alert(juntos);
+
+			//Función4: split()join().Usados ambos métodos conjuntamente podremos crear una función para sustituir un texto por otro en una cadena dada: 
+ 
+			function str_replace(cadena, cambia_esto, por_esto) {
+      			return cadena.split(cambia_esto).join(por_esto);
+			}
+			alert(str_replace('Hola mundo!','mundo','world')); 
+
+	</script>
+	<script type="text/javascript">
+	//Función6: createElement() / appendChild().añadiremos elementos a una lista de forma dinámica
+	 function crear() {
+      // Obtenemos el valor entrado en la caja de texto
+      var valor = document.getElementById("texto").value;
+      // Creamos un nuevo elemento LI
+      var li = document.createElement("LI");
+      // Añadimos el valor introducido al nuevo elemento
+      li.innerHTML = valor;
+      // Añadimos el elemento LI a la lista UL
+      var ul = document.getElementById("UL");
+      ul.appendChild(li);
+      // Vaciamos la caja de texto
+      document.getElementById("texto").value = "";
+	}
+
+	//Función 8: alert() / confirm() / prompt() 
+	// Pedimos al usuario que introduzca su nombre
+	var nombre = prompt("Introduzca su nombre");
+	// Pedimos confirmación
+	if (confirm("¿Seguro que su nombre es "+nombre+"?")) {
+    // Respuesta afirmativa...
+      alert("Hola "+nombre);
+}
+
+
+	</script>
+
+
+	<script type="text/javascript">
+	//Función7: setTimeout() / setInterval()se muestra la hora y fecha del sistema cada segundo en un DIV:
+      setInterval(function(){
+            document.getElementById("fecha").innerHTML = new Date();
+      },1000);
+	</script>
+
+	</head>
+
+
+	<body>
+		<!-- Función7: -->
+		<div id="fecha"></div><br/><br/>
+		 <!-- Función1: -->
+		<div>
+      		<span id="status">Hola mundo...</span>
+		</div><br/>
+		<!-- Función2: -->
+			<a href="/">Home</a>
+		<div id="links">
+      		<a href=”http://google.com”>Google</a>
+      		<a href=”http://ubuntu.com”>Ubuntu</a>
+      		<a href=”http://debian.org”>Debian</a>
+		</div><br/>
+		<!-- Función5: focus() Con este método conseguiremos pasar el foco a un elemento de un formulario.-->
+		<form>
+      		<input type="text" id="nombre" value="Javier" />
+      		<input type="text" id="apellidos" value="Perez" />
+		</form>
+		<a href="#" onclick="document.getElementById("nombre").focus()">Nombre</a>
+		<a href="#" onclick="document.getElementById("apellidos").focus()">Apellidos</a> 
+		<br/>
+		<!-- Función6: -->
+		<input type="text" id="texto" />
+		<input type="button" value="Crear" onclick="crear()" />
+			<ul id="lista"></ul>
+	</body>
+</html>

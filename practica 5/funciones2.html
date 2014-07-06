@@ -1,0 +1,138 @@
+<HTML>
+  <HEAD>
+    <TITLE>Funciones</TITLE>
+      <script type="text/javascript">
+      	//funcion 1. Redireccionar una página
+        //location.href='http://www.google.com';
+
+
+        //funcion 2. Abrir una web en Pop-Up (Abriendo otra página web automáticamente)
+        window.open('http://www.youtube.com','Nueva','');
+
+
+        //funcion 3. No dejar seleccionar el texto de nuestra Web
+        function disableselect(e)
+        {
+          return false
+        }  
+        function reEnable()
+        {
+          return true
+        }
+        document.onselectstart=new Function("return false")
+        if(window.sidebar)
+        {
+          document.onmousedown=disableselect
+          document.onclick=reEnable
+        }
+      </script>
+
+
+      <SCRIPT TYPE="text/javascript">
+      //funcion 5. Recomendar página a un amigo por medio de un email.
+        var good;
+ 
+        function checkEmailAddress(field)
+        {
+            var goodEmail=field.value.match(/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$/);
+ 
+            if(goodEmail)
+            {
+                good=true;
+                alert('El e-mail es válido!');
+ 
+            }else{
+                alert('Por favor introduce un e-mail valido!');
+                field.focus();
+                field.select();
+                good=false;
+            }
+        }
+ 
+        u=window.location;
+        m="Pienso que te puede interesar esta página...";
+ 
+        function mailThisUrl()
+        {
+            good=false;
+            checkEmailAddress(document.eMailer.address);
+ 
+            if(good)
+            {
+                window.location="mailto:"+document.eMailer.address.value+"?subject="+m+"&body="+document.title+": "+u;
+            }
+        }
+ 
+    </SCRIPT>  
+  </HEAD>
+  <BODY>
+    <!-- funcion 3 -->
+    <p>Si intentas copiar este texto no te voy a dejar!!!</p>
+
+
+	<!-- funcion 4 Horas restantes para finalizar el día -->
+    <h2>Horas para acabar el d&iacute;a:</h2>
+    <FORM NAME="Reloj">
+      <INPUT TYPE="text" SIZE="7" NAME="tiempo" VALUE="mm:hh:ss" TITLE="Tiempo restante para finalizar el dia">
+      <SCRIPT LANGUAGE="JavaScript">
+ 
+        var tiempoAtras;
+        updateReloj();
+ 
+        function updateReloj()
+        {
+          var tiempo = new Date();
+          var hora = 23-tiempo.getHours();
+          var minutos = 59-tiempo.getMinutes();
+          var segundos = 59-tiempo.getSeconds();
+ 
+          tiempoAtras = (hora < 10) ? hora :hora;
+          tiempoAtras += ((minutos < 10) ? ":0":":") + minutos;
+          tiempoAtras += ((segundos < 10) ? ":0":":") + segundos;
+ 
+          document.Reloj.tiempo.value = tiempoAtras;
+          setTimeout("updateReloj()",1000);
+        }
+      </SCRIPT><br/><br/>
+
+
+      <!-- funcion 5 -->
+      <FORM NAME="eMailer">
+        <h3>ENV&Iacute;A ESTA P&Aacute;GINA A UN AMIGO</h3>
+        Indica su e-mail:
+        </br>
+        <INPUT TYPE="text" NAME="address" SIZE="25">
+        <INPUT TYPE="button" VALUE="Recomienda esta web!" onclick="mailThisUrl()">
+    </FORM><br/><br/>
+
+
+    <!-- funcion 6 Crear un formulario o Libro de Visitas -->
+    <h2>Libro de Visitas</h2>
+        <form action="mailto:nombre@servidor.com" method="post">
+            <table>
+                <tr>
+                    <td align=left>Nombre:</td>
+                    <td><input type="text" size=36 name="nombre"></td>
+                </tr>
+                <tr>
+                    <td align=left>Direcci&oacute;n E-mail:</td>
+                    <td><input type="text" size=36 name="direccion"></td>
+                </tr>
+                <tr>
+                    <td align=left>Quien te recomendo esta p&aacute;gina?:</td>
+                    <td><input type="text" size=36 name="procedencia"></td>
+                </tr>
+                <tr>
+                    <td align=left>Comentarios:</td>
+                    <td><textarea rows=5 cols=30 name="comentarios"></textarea></td>
+                </tr>
+            </table>
+            <input type="reset" value="Borrar"><input type="submit" value="Enviar">
+        </form>
+
+		<!-- funcion 7 Cambia el puntero a una mirilla de disparo!-->
+        <style type="text/css">
+		body{cursor:crosshair}
+		</style>
+  </BODY>
+</HTML>
