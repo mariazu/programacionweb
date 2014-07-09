@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Ejemplos Validaci&oacute;n</title>
+		<title>Revista</title>
 
 		<meta charset="utf-8">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +17,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-datetimepicker.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/pygments-manni.css" />
+    
     
 
     <link rel="stylesheet" href="css/bootstrap.css"/>
@@ -34,81 +34,103 @@
 	</head>
 	<body>
 	
-		
+	   <div class="container">
+            <div class="row">
+                <div class="col-md-4">     
+                </div>
+                <div class="col-md-4">
+                    <form id="formRev" class="form-horizontal">
+
+                        <div class="form-group has-success has-feedback" >
+                            <label class="col-md-4 control-label">Nombre</label>                        
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" name="nombre"/>
+
+                            </div>
+                        </div>
+                       
+                        <div class="form-group has-success has-feedback">
+                                <label class="col-md-3 control-label">Fecha</label>
+                                <div class="col-md-12" class="form-group">
+                                    <div class='input-group date' id='datetimepicker5' data-date-format="YYYY/MM/DD">
+                                        <input type='text' class="form-control" name="calendario" />
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span>
+                                        </span>
+                                    </div>
+                                 </div>
+                        </div>
+
+                        <div class="form-group has-success has-feedback" >
+                            <label class="col-md-4 control-label">Volumen</label>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" name="volumen"/>
+                        </div>
+                        </div>
+
+                        <div class="form-group has-success has-feedback" >
+                            <label class="col-md-3 control-label">Titulo</label>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" name="titulo"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group has-success has-feedback" >
+                            <label class="col-md-4 control-label">Subtitulo</label>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" name="subtitulo"/>
+                            </div>
+                        </div>
 
 
-     
+                        <div class="form-group has-success has-feedback">
+                            <label class="col-md-4 control-label">Numero</label>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" name="numero"/>
+                            </div>
+                        </div>
 
-<form id="formRevista" class="form-horizontal">
-    <div class="form-group">
-        <label for="nombre" class="col-lg-3 control-label">Nombre</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="nombre" name="nombre" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="portada" class="col-lg-3 control-label">Portada</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="portada" name="portada" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="portada" class="col-lg-3 control-label">Fecha</label>
-        <div class="col-lg-9">
-            <input type='text' class="form-control" id='datetimepicker6'/>
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="volumen" class="col-lg-3 control-label">Volumen</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="volumen" name="volumen" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="titulo" class="col-lg-3 control-label">Titulo</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="titulo" name="titulo" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="subtitulo" class="col-lg-3 control-label">Subtitulo</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="subtitulo" name="subtitulo" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="numero" class="col-lg-3 control-label">N&uacute;mero</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="numero" name="numero" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="clave" class="col-lg-3 control-label">Clave</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="clave" name="clave" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="directorio" class="col-lg-3 control-label">Directorio</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="directorio" name="directorio" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="editorial" class="col-lg-3 control-label">Editorial</label>
-        <div class="col-lg-9">
-            <input type="text" class="form-control" id="editorial" name="editorial" />
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="estatus" class="col-lg-3 control-label">Estatus</label>
-        <div class="col-lg-6">
-            <input type="text" class="form-control" id="estatus" name="estatus" />
-        </div>
-    </div>
-    <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-group has-success has-feedback" >
+                            <label class="col-md-3 control-label">Clave</label>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" name="clave"/>
+                            </div>
+                        </div>
 
-</form>
+                        <div class="form-group has-success has-feedback" >
+                            <label class="col-md-4 control-label">Directorio</label><br/><br/>
+                            <div class="col-md-12">
+                                <textarea class="form-control" rows="3" name="directorio"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group has-success has-feedback" >
+                            <label class="col-md-4 control-label">Editorial</label><br/><br/>
+                            <div class="col-md-12">
+                                <textarea class="form-control" rows="3" name="editorial"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group has-success has-feedback" >
+                            <label class="col-md-4 control-label">Portada</label>
+                            <div class="col-md-12">
+                                <input type="file" id="portada" name="portada">
+                            </div>
+                         </div>
+                        <br/><br/>
+                        
+                        <div class="col-md-12">
+                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                 <div class="col-md-4">
+                
+                </div>
+
+            </div>
+    </div>
+
+
 
 
 
@@ -123,64 +145,125 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-    <script  type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
-    <script  type="text/javascript" src="js/bootstrap-datetimepicker.es.js"></script>
-
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 	
 	<script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
 
+    <script  type="text/javascript" src="js/moment.js"></script>
+    <script  type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+    <script  type="text/javascript" src="js/bootstrap-datetimepicker.es.js"></script>
 
+<script>
+    $(document).ready(function() {
+        $('#formRev').bootstrapValidator({
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields:{
+                nombre:{
+                    validators:{
+                        notEmpty:{
+                            message:'El nombre es requerido'
+                        },
+                        regexp: {
+                        regexp: /[a-zA-Z_]/,
+                        message: 'El nombre solo puede contener letras'
+                    }
+                    }
+                },
+                calendario:{
+                    validators:{
+                        notEmpty:{
+                            message:'La fecha es requerida'
+                        },
+                        date:{
+                            format: 'YYYY/DD/MM',
+                            message:'Lo introducido no es valido como fecha'
+                        } ,
+                    }
+                },
+               
+                volumen:{
+                    validators:{
+                        notEmpty:{
+                            message:'El numero del volumen es requerido'
+                        }
+                    }
+                },
+                titulo:{
+                    validators:{
+                        notEmpty:{
+                            message:'El titulo es requerido'
+                        }
+                    }
+                },
+                subtitulo:{
+                    validators:{
+                        notEmpty:{
+                            message:'El subtitulo es requerido'
+                        }
+                    }
+                },
+
+                numero:{
+                    validators:{
+                        integer:{
+                            message:'El valor no es un entero'
+                        }
+                    }
+                },
+                clave:{
+                    validators:{
+                        notEmpty:{
+                            message:'La clave es requerida'
+                        }
+                    }
+                },
+                directorio:{
+                    validators:{
+                        notEmpty:{
+                            message:'El directorio es requerido'
+                        }
+                    }
+                },
+                editorial:{
+                    validators:{
+                        notEmpty:{
+                            message:'La editorial es requerida'
+                        }
+                    }
+                },
+                portada:{
+                    validators:{
+                        file:{
+                            extension: 'jpeg,png',
+                            type:'image/jpeg,image/png',
+                            maxSize: 2048*1024, //2 MB
+                            message:'El archivo seleccionado no es valido'
+                        }
+                    }
+                },
+
+            }
+
+
+        });      
+    });
+</script>
 <script >
             $(function () {
-                   
-                $('#datetimepicker6').datetimepicker({language: 'es'});
+                $('#datetimepicker5').datetimepicker({
+
+                   language: 'es'
+                    
+                });
             });
         </script>
-	<script>
-		$(document).ready(function() {
-    		 $('#formRevista').bootstrapValidator({
-        message: 'This value is not valid',
-        feedbackIcons: {
-            valid: 'glyphicon glyphicon-ok',
-            invalid: 'glyphicon glyphicon-remove',
-            validating: 'glyphicon glyphicon-refresh'
-        },
-        fields: {
-            nombre: {
-                message: 'The name is not valid',
-                validators: {
-                    notEmpty: {
-                        message: 'The name is required and cannot be empty'
-                    },
-                    stringLength: {
-                        min: 6,
-                        max: 30,
-                        message: 'The name must be more than 6 and less than 30 characters long'
-                    },
-                    regexp: {
-                        regexp: /^[a-zA-Z0-9_]+$/,
-                        message: 'The username can only consist of alphabetical, number and underscore'
-                    }
-                }
-            },
-            email: {
-                validators: {
-                    notEmpty: {
-                        message: 'The email is required and cannot be empty'
-                    },
-                    emailAddress: {
-                        message: 'The input is not a valid email address'
-                    }
-                }
-            }
-        }
-    });
-		});
-
-	</script>
+	
 
   
 
