@@ -1,5 +1,5 @@
 <?php 
-  define('BASEURL','http://localhost:8080/programacionweb//proyecto1');
+  define('BASEURL','http://localhost:8080/programacionweb/proyecto1');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,20 +12,20 @@
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/justified-nav.css" rel="stylesheet">
+    <link href="../css/justified-nav.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/justified-nav.css" rel="stylesheet">
+    <link href="../css/justified-nav.css" rel="stylesheet">
     <!-- Add fancyBox -->
-    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/jquery.fancybox.css" type="text/css" media="screen" />
 
     <!-- Libreria Datetimepicker -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-datetimepicker.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/pygments-manni.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/pygments-manni.css" />
     
     <!-- Libreria BootstrapValidator -->
 
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-  <link rel="stylesheet" href="css/bootstrapValidator.min.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+  <link rel="stylesheet" href="../css/bootstrapValidator.min.css"/>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
