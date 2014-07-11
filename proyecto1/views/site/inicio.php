@@ -10,12 +10,12 @@
         <!-- fila 1 -->
         <div class="row">
             <div class="col-md-6">
-              <img src="images/img1.jpg" alt="..." class="img-rounded">
+              <img src="../images/img1.jpg" alt="..." class="img-rounded">
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="images/img2.jpg" alt="..." class="img-rounded">
+                        <img src="../images/img2.jpg" alt="..." class="img-rounded">
                     </div>
                 </div>
                 <div class="row">
@@ -115,7 +115,7 @@
 
         <div class="row">
           <div class="col-md-12">
-                <img src="images/img3.jpg" alt="..." class="img-rounded">
+                <img src="../images/img3.jpg" alt="..." class="img-rounded">
           </div>
           
         </div>
@@ -141,7 +141,7 @@
                       <div class="row">
                           <div class="col-md-4">
                             <h3>
-                              <img width="40px" height="30px" src="images/arg.png" alt="..." class="img-rounded">
+                              <img width="40px" height="30px" src="../images/arg.png" alt="..." class="img-rounded">
                             </h3>
                           </div>
                           <div class="col-md-4">
@@ -192,7 +192,7 @@
                       <div class="row">
                           <div class="col-md-4">
                             <h3>
-                              <img width="40px" height="30px" src="images/bel.png" alt="..." class="img-rounded">
+                              <img width="40px" height="30px" src="../images/bel.png" alt="..." class="img-rounded">
                             </h3>
                           </div>
                           <div class="col-md-4">
@@ -227,7 +227,7 @@
                         </div>
                         <div class="col-md-2">
                             <h3>
-                              <img width="50px" height="30px" src="images/usa_002.png" alt="..." class="img-rounded">
+                              <img width="50px" height="30px" src="../images/usa_002.png" alt="..." class="img-rounded">
                             </h3>
                           </div>
                       </div>
@@ -239,7 +239,7 @@
 
         <div class="row">
   
-              <img width="88%" src="images/cronica.jpg" alt="..." class="img-rounded">
+              <img width="88%" src="../images/cronica.jpg" alt="..." class="img-rounded">
 
         </div><br/>
 
@@ -250,7 +250,7 @@
                <div class="row">
                    <div class="col-md-4">
                        <div class="row">
-                        <img  src="images/2397535_large-lnd.jpg" alt="..." class="img-rounded">
+                        <img  src="../images/2397535_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div class="row">
                           <h5>ESTADOS UNIDOS</h5>
@@ -261,7 +261,7 @@
 
                    <div class="col-md-4">
                         <div class="row">
-                            <img  src="images/2390864_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img  src="../images/2390864_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div class="row">
                           <h5>COLOMBIA</h5>
@@ -272,7 +272,7 @@
 
                    <div class="col-md-3">
                         <div class="row">             
-                            <img width="80%" height="90%" src="images/2388106_FULL-PRT.jpg" alt="..." class="img-rounded">
+                            <img width="80%" height="90%" src="../images/2388106_FULL-PRT.jpg" alt="..." class="img-rounded">
                        </div>
                    </div> 
                </div><br/>
@@ -280,7 +280,7 @@
                <div class="row">
                   <div class="col-md-4">
                       <div class="row">
-                        <img width="80%" height="90%" src="images/2389887_xbig-lnd.jpg" alt="..." class="img-rounded">
+                        <img width="80%" height="90%" src="../images/2389887_xbig-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div class="row">
                           <h5>PA&Iacute;SES BAJOS</h5>
@@ -291,7 +291,7 @@
 
                    <div class="col-md-4">
                       <div class="row">
-                        <img width="80%" height="90%" src="images/argentina.jpg" alt="..." class="img-rounded">
+                        <img width="80%" height="90%" src="../images/argentina.jpg" alt="..." class="img-rounded">
                         </div>
                         <div class="row">
                           <h5>BRAZIL 2014</h5>
@@ -302,7 +302,7 @@
 
                    <div class="col-md-4">
                        <div class="row">             
-                            <img width="80%" height="90%" src="images/azul.jpg" alt="..." class="img-rounded">
+                            <img width="80%" height="90%" src="../images/azul.jpg" alt="..." class="img-rounded">
                        </div>
                    </div>
 
@@ -332,15 +332,15 @@
 
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/Ticketing_es.png" alt="..." class="img-rounded">
+                        <img src="../images/Ticketing_es.png" alt="..." class="img-rounded">
                     </div>
 
                     <div class="col-md-4">
-                        <img src="images/Accomodation_es.png" alt="..." class="img-rounded">
+                        <img src="../images/Accomodation_es.png" alt="..." class="img-rounded">
                     </div>
 
                     <div class="col-md-4">
-                        <img src="images/Hospitality_es.png" alt="..." class="img-rounded">
+                        <img src="../images/Hospitality_es.png" alt="..." class="img-rounded">
                     </div>
                 </div>
             </div>
@@ -356,15 +356,15 @@
 
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/noticias.jpg" alt="..." class="img-rounded">
+                        <img src="../images/noticias.jpg" alt="..." class="img-rounded">
                     </div>
 
                     <div class="col-md-4">
-                        <img src="images/partidos.jpg" alt="..." class="img-rounded">
+                        <img src="../images/partidos.jpg" alt="..." class="img-rounded">
                     </div>
 
                     <div class="col-md-4">
-                        <img src="images/partidos2.jpg" alt="..." class="img-rounded">
+                        <img src="../images/partidos2.jpg" alt="..." class="img-rounded">
                     </div>
                 </div>
             </div>
@@ -388,10 +388,10 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="row">
-                            <h4>¡PRONOSTICADOR CASTROL!</h4>
+                            <h5>¡PRONOSTICADOR CASTROL!</h5>
                         </div>
                         <div class="row">
-                            <img src="images/2334697_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img width="100%" height="100%" src="../images/2334697_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div align="center" class="row">
                             <ol class="breadcrumb">
@@ -405,7 +405,7 @@
                             <h4>F&Uacute;TBOL FANTASY 2014</h4>
                         </div>
                         <div class="row">
-                            <img src="images/2338253_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img width="100%" height="100%" src="../images/2338253_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div align="center" class="row">
                             <ol class="breadcrumb">
@@ -418,7 +418,7 @@
                             <h4>TUS 11 TITULARES</h4>
                         </div>
                         <div class="row">
-                            <img src="images/2341589_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img width="100%" height="100%" src="../images/2341589_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div align="center" class="row">
                             <ol class="breadcrumb">
@@ -431,7 +431,7 @@
                             <h4>JUEGO DEL ONCE IDEAL</h4>
                         </div>
                         <div class="row">
-                            <img src="images/2341591_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img width="100%" height="100%" src="../images/2341591_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div align="center" class="row">
                             <ol class="breadcrumb">
@@ -465,13 +465,13 @@
 
                <div class="row">
                   <div align="center" class="col-md-6">
-                      <img width="100%" src="images/mapa.jpg" alt="..." class="img-rounded">
+                      <img width="100%" src="../images/mapa.jpg" alt="..." class="img-rounded">
                   </div>
 
                   <div class="col-md-6">
                       <div class="row">
                         <div align="center" class="col-md-2">
-                             <img width="70px" height="70px" src="images/1037338_small.jpg" alt="..." class="img-rounded">
+                             <img width="70px" height="70px" src="../images/1037338_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -481,7 +481,7 @@
 
                         <div class="col-md-2">
 
-                            <img width="70px" height="70px" src="images/738308_small.jpg" alt="..." class="img-rounded">
+                            <img width="70px" height="70px" src="../images/738308_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -492,7 +492,7 @@
 
                       <div class="row">
                         <div align="center" class="col-md-2">
-                             <img width="70px" height="70px" src="images/1037321_small.jpg" alt="..." class="img-rounded">
+                             <img width="70px" height="70px" src="../images/1037321_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -502,7 +502,7 @@
 
                         <div class="col-md-2">
 
-                            <img width="70px" height="70px" src="images/1038566_small.jpg" alt="..." class="img-rounded">
+                            <img width="70px" height="70px" src="../images/1038566_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -513,7 +513,7 @@
 
                       <div class="row">
                         <div align="center" class="col-md-2">
-                             <img width="70px" height="70px" src="images/1037323_small.jpg" alt="..." class="img-rounded">
+                             <img width="70px" height="70px" src="../images/1037323_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -523,7 +523,7 @@
 
                         <div class="col-md-2">
 
-                            <img width="70px" height="70px" src="images/1037325_small.jpg" alt="..." class="img-rounded">
+                            <img width="70px" height="70px" src="../images/1037325_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -534,7 +534,7 @@
 
                       <div class="row">
                         <div align="center" class="col-md-2">
-                             <img width="70px" height="70px" src="images/1037328_small.jpg" alt="..." class="img-rounded">
+                             <img width="70px" height="70px" src="../images/1037328_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -544,7 +544,7 @@
 
                         <div class="col-md-2">
 
-                            <img width="70px" height="70px" src="images/1037329_small.jpg" alt="..." class="img-rounded">
+                            <img width="70px" height="70px" src="../images/1037329_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -555,7 +555,7 @@
 
                       <div class="row">
                         <div align="center" class="col-md-2">
-                             <img width="70px" height="70px" src="images/1037331_small.jpg" alt="..." class="img-rounded">
+                             <img width="70px" height="70px" src="../images/1037331_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -565,7 +565,7 @@
 
                         <div class="col-md-2">
 
-                            <img width="70px" height="70px" src="images/1017789_small.jpg" alt="..." class="img-rounded">
+                            <img width="70px" height="70px" src="../images/1017789_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -576,7 +576,7 @@
 
                       <div class="row">
                         <div align="center" class="col-md-2">
-                             <img width="70px" height="70px" src="images/1017718_small.jpg" alt="..." class="img-rounded">
+                             <img width="70px" height="70px" src="../images/1017718_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -586,7 +586,7 @@
 
                         <div class="col-md-2">
 
-                            <img width="70px" height="70px" src="images/1017629_small.jpg" alt="..." class="img-rounded">
+                            <img width="70px" height="70px" src="../images/1017629_small.jpg" alt="..." class="img-rounded">
                         </div>
 
                         <div class="col-md-4">
@@ -619,7 +619,7 @@
                             <h4>FOOTBALL FOR HOPE</h4>
                         </div>
                         <div class="row">
-                            <img src="images/2387089_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img src="../images/2387089_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div align="center" class="row">
                             <ol class="breadcrumb">
@@ -633,7 +633,7 @@
                             <h4>TOUR DEL TROFEO</h4>
                         </div>
                         <div class="row">
-                            <img src="images/2172844_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img src="../images/2172844_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div align="center" class="row">
                             <ol class="breadcrumb">
@@ -646,7 +646,7 @@
                             <h4>LA VISI&Oacute;N DEL VALCKE</h4>
                         </div>
                         <div class="row">
-                            <img src="images/2300546_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img src="../images/2300546_large-lnd.jpg" alt="..." class="img-rounded">
                         </div>
                         <div align="center" class="row">
                             <ol class="breadcrumb">
@@ -659,10 +659,10 @@
                 <div class="row">
                   
                       <div class="col-md-6">
-                          <img src="images/committee-col6.png" alt="..." class="img-rounded">
+                          <img src="../images/committee-col6.png" alt="..." class="img-rounded">
                       </div>
                       <div class="col-md-6">
-                        <img src="images/volunteers-col6.png" alt="..." class="img-rounded">
+                        <img src="../images/volunteers-col6.png" alt="..." class="img-rounded">
                      </div>                   
                 </div>
 
@@ -677,7 +677,7 @@
                             <h4>PRENSA</h4>
                         </div>
                         <div class="row">
-                            <img src="images/2388908_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img src="../images/2388908_large-lnd.jpg" alt="..." class="img-rounded">
                         </div><br/>
                         <div class="row">
                             <p>La fase de grupos de la Copa Mundial de la FIFA<br/> Brasil 2014 ha alcanzado r&eacute;cords de<br/> telespectadores por todo el globo, con un<br/> desempeño espectacular en Estados Unidos y<br/> nuevos avances sensacionales en Europ, Asia y el<br/> resto de Am&eacute;rica.</p>
@@ -695,7 +695,7 @@
                             <h4>THE FIFA WEEKLY</h4>
                         </div>
                         <div class="row">
-                            <img width="85%"src="images/revista.jpg" alt="..." class="img-rounded">
+                            <img width="85%"src="../images/revista.jpg" alt="..." class="img-rounded">
                         </div><br/>
                         <div class="row">
                             <p>An&aacute;lisis, reportajes, im&aacute;genes. La revista The FIFA<br/>Weekly aparece todos los viernes, tanto en papel<br/>como en formato electr&oacute;nico</p>
@@ -711,7 +711,7 @@
                             <h4>LA FIFA</h4>
                         </div>
                         <div class="row">
-                            <img src="images/2300217_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img src="../images/2300217_large-lnd.jpg" alt="..." class="img-rounded">
                         </div><br/>
                         <div class="row">
                             <p>FIFA.com te cuenta la experiencia en los estadios<br/>de varios hinchas con discapacidad visual. El<br/>servicio de narraci&oacute;n audiodescriptiva de la Copa<br/>Mundial de la FIFA est&aacute; coordinado por Urece<br/>Esporte e Cultura para Cegos, una ONG que<br/>colabora con la FIFA y el COL.</p>
@@ -764,7 +764,7 @@
 
                               </div>
                               <div class="row">
-                                <img src="images/2002fwcoe_4cf_ps.png" alt="..." class="img-rounded">
+                                <img src="../images/2002fwcoe_4cf_ps.png" alt="..." class="img-rounded">
                               </div>
                           </div>
 
@@ -773,7 +773,7 @@
                                 <h4 class="text-primary">Alemania 2006</h4>
                               </div>
                               <div class="row">
-                                <img src="images/2006fwcoe_4cf_ps.png" alt="..." class="img-rounded">
+                                <img src="../images/2006fwcoe_4cf_ps.png" alt="..." class="img-rounded">
                               </div>
                           </div>
 
@@ -782,7 +782,7 @@
                                 <h4 class="text-primary">Sud&aacute;frica 2010</h4>
                               </div>
                               <div class="row">
-                                <img src="images/2010fwcoe_4cf_ps.png" alt="..." class="img-rounded">
+                                <img src="../images/2010fwcoe_4cf_ps.png" alt="..." class="img-rounded">
                               </div>
                           </div>
 
@@ -791,7 +791,7 @@
                                 <h4 class="text-primary">Brasil 2014</h4>
                               </div>
                               <div class="row">
-                                <img src="images/2014fwcoe_4cf_ps.png" alt="..." class="img-rounded">
+                                <img src="../images/2014fwcoe_4cf_ps.png" alt="..." class="img-rounded">
                               </div> 
                           </div>
 
@@ -800,7 +800,7 @@
                                 <h4 class="text-primary">Rusia 2018</h4>
                               </div>
                               <div class="row">
-                                <img src="images/17_2018.png" alt="..." class="img-rounded">
+                                <img src="../images/17_2018.png" alt="..." class="img-rounded">
                               </div>
                           </div>
 
@@ -809,14 +809,14 @@
                                 <h4 class="text-primary">Qatar 2022</h4>
                               </div>
                               <div class="row">
-                                <img src="images/17_2022.png" alt="..." class="img-rounded">
+                                <img src="../images/17_2022.png" alt="..." class="img-rounded">
                               </div>
                           </div>
                       </div><br/>
 
                       <div class="row">
                           <div class="col-md-4">
-                            <img src="images/2250600_large-lnd.jpg" alt="..." class="img-rounded">
+                            <img src="../images/2250600_large-lnd.jpg" alt="..." class="img-rounded">
                           </div>
 
                           <div class="col-md-4">
@@ -843,7 +843,7 @@
                       </div>
                       <div align="center" class="row">
                        
-                              <img src="images/socios.jpg" alt="..." class="img-rounded">  
+                              <img src="../images/socios.jpg" alt="..." class="img-rounded">  
                       </div><br/>
 
                       <div align="center" class="row">
@@ -851,7 +851,7 @@
                       </div>
                       <div align="center" class="row">
                        
-                              <img src="images/patrocinador.jpg" alt="..." class="img-rounded">  
+                              <img src="../images/patrocinador.jpg" alt="..." class="img-rounded">  
                       </div><br/>
 
                       <div align="center" class="row">
@@ -859,7 +859,7 @@
                       </div>
                       <div align="center" class="row">
                        
-                              <img src="images/promotores.jpg" alt="..." class="img-rounded">  
+                              <img src="../images/promotores.jpg" alt="..." class="img-rounded">  
                       </div>
 
                   </div>

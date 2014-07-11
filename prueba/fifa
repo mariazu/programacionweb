@@ -1000,7 +1000,6 @@
     <script  type="text/javascript" src="js/bootstrap-datetimepicker.es.js"></script>
 
     <script >
-
     
     $(document).ready(function() {
         $(".ejemplo_4").fancybox({
@@ -1011,7 +1010,6 @@
             'height' :450,
             'type' :'iframe'
         });
-
 
     });
     </script>

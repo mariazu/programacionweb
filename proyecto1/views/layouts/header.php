@@ -58,15 +58,17 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registros  <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="">Ciudad</a></li>
+                <li><a href="../equipo/equipo.php">Equipo</a></li>
                 <li class="divider"></li>
-                <li><a href="">Continente</a></li>
+                <li><a href="../continente/continente.php">Continente</a></li>
                 <li class="divider"></li>
-                <li><a href="">Estadio</a></li>
+                <li><a href="../estadio/estadio.php">Estadio</a></li>
                 <li class="divider"></li>
-                <li><a href="">Pa&iacute;s</a></li>
+                <li><a href="../pais/pais.php">Pa&iacute;s</a></li>
                 <li class="divider"></li>
-                <li><a href="">Posici&oacute;n</a></li>
+                <li><a href="../posicion/posicion.php">Posici&oacute;n</a></li>
+                <li class="divider"></li>
+                <li><a href="../integrante/integrante.php">Integrante</a></li>
               </ul>
             </li>
             <li class="dropdown">

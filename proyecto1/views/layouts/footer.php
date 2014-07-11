@@ -34,28 +34,8 @@
     <script  type="text/javascript" src="../js/moment.js"></script>
     <script  type="text/javascript" src="../js/bootstrap-datetimepicker.js"></script>
     <script  type="text/javascript" src="../js/bootstrap-datetimepicker.es.js"></script>
+    
 
-    <script > 
-    $(document).ready(function() {
-        $(".ejemplo_4").fancybox({
-            'autoScale' :false,
-            'transitionIn' :'none',
-            'transitionOut' :'none',
-            'width' :680,
-            'height' :450,
-            'type' :'iframe'
-        });
-    });
-    </script>
-    <script >
-            $(function () {
-                $('#datetimepicker5').datetimepicker({
-
-                   language: 'es'
-                    
-                });
-            });
-        </script>
-
+    
   </body>
 </html>
