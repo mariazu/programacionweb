@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/pygments-manni.css" />
+    
+    
+
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/bootstrapValidator.min.css"/>
+  </head>
+  <body>
+      <br/>
+      <div align="center">
+          <img src="images/fifa.jpg" />
+      </div>
+      
+      <div align="center">
+          <img width="150px" height="150px"  src="images/2014fwcoe_4cf_ps.png" />
+      </div>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+                
+          </div>
+          <div class="col-md-4">
+              <h2 class="bg-info" align="center">
+                  <!-- Icono -->
+                  Registro de Paises
+              </h2>
+              <br/>
+              <!-- formulario registro de estadios -->
+              <form id="formPa" class="form-horizontal" role="form">
+                  <!-- formulario Nombre -->
+                  <div class="form-group">
+                          <label for="nombre" class="col-sm-4 control-label">Nombre</label>
+                      <div class="col-sm-8">
+                          <input  class="form-control" id="nombre" name="nombre" >
+                      </div>
+                  </div>
+                  <!-- formulario Bandera -->
+                  <div class="form-group">
+                      <label  for="bandera" class="col-sm-4 control-label">Pa&iacute;s</label>
+                    <div class="col-sm-6">
+                      <input type="file" id="bandera" name="bandera">
+                    </div>
+                  </div>
+                  <!-- formulario Continente -->
+                  <div class="form-group">
+                      <label  class="col-sm-4 control-label">Continente</label>
+                    <div class="col-sm-6">
+                      <select>
+                        <option value="">Seleccionar</option>
+                        <option value="mx">Am&eacute;rica</option>
+                        <option value="ho">Europa</option>
+                        <option value="ar">Asia</option>
+                        <option value="al">Africa</option>
+                        <option value="br">Oceania</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div align="center" class="form-group">
+
+                          <button type="submit" name="submit" class="btn btn-success">Guardar</button>
+                  </div>
+                
+                </form>
+              <div class="col-md-4">               
+              </div>
+          </div>
+      </div>
+            
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+
+    <script  type="text/javascript" src="js/moment.js"></script>
+    <script  type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+    <script  type="text/javascript" src="js/bootstrap-datetimepicker.es.js"></script>
+
+     <script>
+    $(document).ready(function() {
+        $('#formPa').bootstrapValidator({
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields:{
+
+                nombre:{
+                    validators:{
+                        notEmpty:{
+                            message:'El nombre es requerido'
+                        },
+                        regexp: {
+                        regexp: /[a-zA-Z_]/,
+                        message: 'El nombre solo puede contener letras'
+                        }
+                    }
+                },
+                bandera:{
+                    validators:{
+                        file:{
+                            extension: 'jpeg,png',
+                            type:'image/jpeg,image/png,',
+                            maxSize: 2048*1024, //2 MB
+                            message:'El archivo seleccionado no es valido'
+                        }
+                    }
+                },
+
+            }
+
+
+        });      
+    });
+</script>
+  </body>
+  </html>

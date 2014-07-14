@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/pygments-manni.css" />
+    
+    
+
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+  <link rel="stylesheet" href="../css/bootstrapValidator.min.css"/>
+  </head>
+  <body>
+      
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+                
+          </div>
+          <div class="col-md-4">
+              <h2 class="bg-info" align="center">
+                  <!-- Icono -->
+                  Jugador
+              </h2>
+              <br/>
+              <!-- formulario registro de estadios -->
+              <form id="formE" class="form-horizontal" role="form">
+                  <!-- formulario Nombre -->
+                  <div class="form-group">
+                          <label for="idintegrante" class="col-sm-4 control-label">ID Integrante</label>
+                      <div class="col-sm-8">
+                          <input type="text" class="form-control" id="idintegrante" name="idintegrante" >
+                      </div>
+                  </div>
+                  <!-- formulario Ciudades -->
+                  <div class="form-group">
+                          <label for="idjugador" class="col-sm-4 control-label">ID Jugador</label>
+                      <div class="col-sm-8">
+                          <input type="text" class="form-control" id="idjugador" name="idjugador" >
+                      </div>
+                  </div>
+                  <!-- formulario Ciudades -->
+                  <div class="form-group">
+                          <label for="idposicion" class="col-sm-4 control-label">ID Posici&oacute;n</label>
+                      <div class="col-sm-8">
+                          <input type="text" class="form-control" id="idposicion" name="idposicion" >
+                      </div>
+                  </div>
+                  <!-- formulario Ciudades -->
+                  <div class="form-group">
+                          <label for="numero" class="col-sm-4 control-label">N&uacute;mero</label>
+                      <div class="col-sm-8">
+                          <input type="text" class="form-control" id="numero" name="numero" >
+                      </div>
+                  </div>
+                  <br/>
+                  <div align="center" class="form-group">
+
+                          <button type="submit" name="submit" class="btn btn-success">Guardar</button>
+                  </div>
+                
+                </form>
+              <div class="col-md-4">               
+              </div>
+          </div>
+      </div>
+  </div>
+            
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript" src="../js/bootstrapValidator.min.js"></script>
+
+    <script  type="text/javascript" src="../js/moment.js"></script>
+    <script  type="text/javascript" src="../js/bootstrap-datetimepicker.js"></script>
+    <script  type="text/javascript" src="../js/bootstrap-datetimepicker.es.js"></script>
+
+     <script>
+    $(document).ready(function() {
+        $('#formE').bootstrapValidator({
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields:{
+
+                idintegrante:{
+                    validators:{
+                        notEmpty:{
+                            message:'El id del integrante es requerido'
+                        },
+                        integer:{
+                            message:'El valor no es un entero'
+                        }
+                    }
+                },
+                idjugador:{
+                    validators:{
+                        notEmpty:{
+                            message:'El id del jugador es requerido'
+                        },
+                        integer:{
+                            message:'El valor no es un entero'
+                        }
+                    }
+                },
+                idposicion:{
+                    validators:{
+                        notEmpty:{
+                            message:'La posicion es requerida'
+                        },
+                        integer:{
+                            message:'El valor no es un entero'
+                        }
+                    }
+                },
+                numero:{
+                    validators:{
+                        notEmpty:{
+                            message:'El numero es requerido'
+                        },
+                        integer:{
+                            message:'El valor no es un entero'
+                        }
+                    }
+                },
+
+            }
+
+
+        });      
+    });
+</script>
+  </body>
+  </html>
