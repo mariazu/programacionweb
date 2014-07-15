@@ -1,10 +1,29 @@
 <?php
-	class ContinenteController extends Continente{
+	class EstadioController{
 		
 		public $muestra_errores = false;
 		function __construct(){
-			 parent::Continente();
+			 
 		}
+
+		
+
+		public function insertaEstadio($datos){
+			echo "<pre>datos:";
+    		print_r($datos);
+    		echo "</pre>";
+			$estadio = new Estadio();
+			$estadio->set_Nombre($datos['Nombre']);
+			if (count($estadio->errores)>0) {
+				print_r($estadio->errores);
+				# code...
+			}
+			die();
+			
+		}
+
+
+
 		
 		public function validaUsuario($datos){
 			$rs = $this->consulta_sql(" select * from usuarios where email = '".$datos['email']."'  ");

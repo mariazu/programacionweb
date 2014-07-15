@@ -1,10 +1,30 @@
 <?php
-	class PaisController extends Pais{
+	class PosicionController{
 		
 		public $muestra_errores = false;
 		function __construct(){
-			 parent::Pais();
+			 
 		}
+
+		
+
+		public function insertaPosicion($datos){
+			echo "<pre>datos:";
+    		print_r($datos);
+    		echo "</pre>";
+			$posicion = new Posicion();
+			$posicion->set_nombre($datos['nombre']);
+			$posicion->set_abreviatura($datos['abreviatura']);
+			if (count($posicion->errores)>0) {
+				print_r($posicion->errores);
+				# code...
+			}
+			die();
+			
+		}
+
+
+
 		
 		public function validaUsuario($datos){
 			$rs = $this->consulta_sql(" select * from usuarios where email = '".$datos['email']."'  ");

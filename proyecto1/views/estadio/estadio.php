@@ -4,10 +4,17 @@
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
       include ('../../models/Estadio.php');
-      include ('../../controllers/siteController/EstadioController.php');
+      include ('../../controllers/EstadioController.php');
       include ('../../libs/Er.php');
   //session_start();
   include ('../layouts/header.php');
+  if(isset($_POST['nombre'])){
+    //echo "<pre>datos:";
+    //print_r($datos);
+    //echo "</pre>";
+    $estadioC=new EstadioController();
+    $estadioC->insertaEstadio($_POST);
+}
 ?>
 
  

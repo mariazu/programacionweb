@@ -4,10 +4,17 @@
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
       include ('../../models/Pais.php');
-      include ('../../controllers/siteController/PaisController.php');
+      include ('../../controllers/PaisController.php');
       include ('../../libs/Er.php');
   //session_start();
   include ('../layouts/header.php');
+  if(isset($_POST['nombre'])){
+    //echo "<pre>datos:";
+    //print_r($datos);
+    //echo "</pre>";
+    $paisC=new PaisController();
+    $paisC->insertaPais($_POST);
+}
 ?>
 
       <div align="center">

@@ -39,8 +39,8 @@ class Equipo extends Modelo{
 
         $er = new Er();
         
-        if ( !$er->valida_email($valor) ){
-            $this->errores[] = "Este e-mail (".$valor.") no es valido";
+        if ( !$er->valida_nombre($valor) ){
+            $this->errores[] = "Este nombre (".$valor.") no es valido";
         }
 
                
@@ -53,12 +53,6 @@ class Equipo extends Modelo{
     }
 
     public function set_idpais($valor){
-
-        $er = new Er();
-        
-        if ( !$er->valida_email($valor) ){
-            $this->errores[] = "Este e-mail (".$valor.") no es valido";
-        }
 
                
         $this->idpais = trim($valor);
@@ -73,8 +67,8 @@ class Equipo extends Modelo{
 
         $er = new Er();
         
-        if ( !$er->valida_email($valor) ){
-            $this->errores[] = "Este e-mail (".$valor.") no es valido";
+        if ( !$er->valida_nombre($valor) ){
+            $this->errores[] = "Este nombre de imagen (".$valor.") no es valido";
         }
 
                

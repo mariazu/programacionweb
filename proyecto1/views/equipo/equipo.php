@@ -4,10 +4,18 @@
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
       include ('../../models/Equipo.php');
-      include ('../../controllers/siteController/EquipoController.php');
+      include ('../../controllers/EquipoController.php');
       include ('../../libs/Er.php');
   //session_start();
   include ('../layouts/header.php');
+
+   if(isset($_POST['nombre'])){
+    //echo "<pre>datos:";
+    //print_r($datos);
+    //echo "</pre>";
+    $equipoC=new EquipoController();
+    $equipoC->insertaEquipo($_POST);
+}
   
 ?>
 

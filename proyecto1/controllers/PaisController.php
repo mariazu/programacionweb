@@ -1,10 +1,31 @@
 <?php
-	class IntegranteController extends Integrante{
+	class PaisController{
 		
 		public $muestra_errores = false;
 		function __construct(){
-			 parent::Integrante();
+			 
 		}
+
+		
+
+		public function insertaPais($datos){
+			echo "<pre>datos:";
+    		print_r($datos);
+    		echo "</pre>";
+			$pais = new Pais();
+			$pais->set_nombre($datos['nombre']);
+			$pais->set_bandera($datos['bandera']);
+			$pais->set_idcontinente($datos['idcontinente']);
+			if (count($pais->errores)>0) {
+				print_r($pais->errores);
+				# code...
+			}
+			die();
+			
+		}
+
+
+
 		
 		public function validaUsuario($datos){
 			$rs = $this->consulta_sql(" select * from usuarios where email = '".$datos['email']."'  ");

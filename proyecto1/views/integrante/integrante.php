@@ -5,10 +5,17 @@
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
       include ('../../models/Integrante.php');
-      include ('../../controllers/siteController/IntegranteController.php');
+      include ('../../controllers/IntegranteController.php');
       include ('../../libs/Er.php');
   //session_start();
   include ('../layouts/header.php');
+  if(isset($_POST['nombre'])){
+    //echo "<pre>datos:";
+    //print_r($datos);
+    //echo "</pre>";
+    $integranteC=new IntegranteController();
+    $integranteC->insertaIntegrante($_POST);
+}
 ?>
 
 

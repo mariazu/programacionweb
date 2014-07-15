@@ -4,10 +4,17 @@
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
       include ('../../models/Posicion.php');
-      include ('../../controllers/siteController/PosicionController.php');
+      include ('../../controllers/PosicionController.php');
       include ('../../libs/Er.php');
   //session_start();
   include ('../layouts/header.php');
+  if(isset($_POST['nombre'])){
+    //echo "<pre>datos:";
+    //print_r($datos);
+    //echo "</pre>";
+    $posicionC=new PosicionController();
+    $posicionC->insertaPosicion($_POST);
+}
 ?>
 
       <div align="center">

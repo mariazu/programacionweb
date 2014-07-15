@@ -4,7 +4,7 @@
       include ('../../models/Conexion.php');
       include ('../../models/Modelo.php');
       include ('../../models/Continente.php');
-      include ('../../controllers/siteController/ContinenteController.php');
+      include ('../../controllers/ContinenteController.php');
       include ('../../libs/Er.php');
   //session_start();
   include ('../layouts/header.php');
