@@ -1,0 +1,18 @@
+body{
+	background-image: url(../images/fondo.jpg);
+}
+.estilo1 {
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.estilo2 {
+background-image: url(../images/img2.jpg);
+}
+
+.estilo3 {
+background-color: #FFFFFF;
+}
+.estilo4 {
+	font-size: 14px;
+	color: #0066CC;
+}

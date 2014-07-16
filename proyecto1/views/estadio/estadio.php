@@ -50,7 +50,7 @@
                   <br/>
                   <div align="center" class="form-group">
 
-                          <button type="submit" name="submit" class="btn btn-success">Guardar</button>
+                          <button type="submit" class="btn btn-default">Enviar</button>
                   </div>
                 
                 </form>
